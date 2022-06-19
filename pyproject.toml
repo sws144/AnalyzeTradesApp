@@ -6,7 +6,13 @@ authors = ["Stanley Wang <s.wang4331@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+h2o = "*"
+matplotlib = "*"
+mlflow = "*"
+numpy = "*"
 pandas = "*"
+pywin32 = "304"
+shap = "0.40.0"
 streamlit = "*"
 
 [tool.poetry.dev-dependencies]
